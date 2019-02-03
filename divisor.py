@@ -6,6 +6,9 @@ number = input('Please input a number: ')
 
 x = number / 2
 
+div_list = []
+
 for y in range(1, x+1):
     if number % y == 0:
-        print (y),
+        div_list.append(y)
+print (div_list)
